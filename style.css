@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #efedeb;
 }
 
 hr {
@@ -297,7 +298,7 @@ body {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    background-color: rgba(0,0,0,0.5); /* Fundo semi-transparente */
+    background-color: rgba(0, 0, 0, 0); /* Fundo semi-transparente */
   }
   
   /* Position the "next button" to the right */
@@ -307,7 +308,7 @@ body {
   }
   
   .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0);
   }
   
   /* Alterar os dots para linhas */
